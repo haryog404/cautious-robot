@@ -7,6 +7,6 @@ elif greet[0] == "H":
 else:
     x = 100
 
-money = str(x)
+money = x
 
-print("$" + money)
+print("$" + str(money))
