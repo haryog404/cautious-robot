@@ -2,8 +2,8 @@ x = input().lower()
 y = ["a", "i", "u", "e", "o"]
 z = ''
 
-for kcir in x:
-    if kcir not in y:
-        z += kcir
+for _ in x:
+    if _ not in y:
+        z += _
 
 print(z)
